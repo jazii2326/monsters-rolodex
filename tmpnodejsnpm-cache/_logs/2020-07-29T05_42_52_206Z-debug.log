@@ -1,0 +1,255 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\usr\\local\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'git'
+1 verbose cli ]
+2 info using npm@6.14.6
+3 info using node@v12.18.3
+4 verbose npm-session a156dd8c0ea3ddb3
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 http fetch GET 200 http://registry.npmjs.org/git 2534ms
+8 http fetch GET 200 http://registry.npmjs.org/git/-/git-0.1.5.tgz 3468ms
+9 silly pacote tag manifest for git@latest fetched in 6157ms
+10 timing stage:loadCurrentTree Completed in 31022ms
+11 silly install loadIdealTree
+12 silly install cloneCurrentTreeToIdealTree
+13 timing stage:loadIdealTree:cloneCurrentTree Completed in 76ms
+14 silly install loadShrinkwrap
+15 timing stage:loadIdealTree:loadShrinkwrap Completed in 3909ms
+16 silly install loadAllDepsIntoIdealTree
+17 silly resolveWithNewModule git@0.1.5 checking installable status
+18 http fetch GET 200 http://registry.npmjs.org/mime 370ms
+19 http fetch GET 200 http://registry.npmjs.org/mime/-/mime-1.2.9.tgz 761ms
+20 silly pacote version manifest for mime@1.2.9 fetched in 1279ms
+21 silly resolveWithNewModule mime@1.2.9 checking installable status
+22 silly removeObsoleteDep removing @babel/highlight@7.9.0 from the tree as its been replaced by a newer version or is no longer required
+23 silly removeObsoleteDep removing @babel/helper-validator-identifier@7.9.0 from the tree as its been replaced by a newer version or is no longer required
+24 http fetch GET 200 http://registry.npmjs.org/@babel%2fhighlight 5358ms
+25 http fetch GET 200 http://registry.npmjs.org/@babel/highlight/-/highlight-7.9.0.tgz 200ms
+26 silly pacote version manifest for @babel/highlight@7.9.0 fetched in 5615ms
+27 silly resolveWithNewModule @babel/highlight@7.9.0 checking installable status
+28 silly removeObsoleteDep removing @babel/helper-validator-identifier@7.10.4 from the tree as its been replaced by a newer version or is no longer required
+29 silly removeObsoleteDep removing chalk@2.4.2 from the tree as its been replaced by a newer version or is no longer required
+30 silly removeObsoleteDep removing supports-color@5.5.0 from the tree as its been replaced by a newer version or is no longer required
+31 silly removeObsoleteDep removing js-tokens@4.0.0 from the tree as its been replaced by a newer version or is no longer required
+32 http fetch GET 200 http://registry.npmjs.org/@babel%2fhelper-validator-identifier 758ms
+33 http fetch GET 200 http://registry.npmjs.org/@babel/helper-validator-identifier/-/helper-validator-identifier-7.10.4.tgz 272ms
+34 silly pacote version manifest for @babel/helper-validator-identifier@7.10.4 fetched in 1094ms
+35 silly resolveWithNewModule @babel/helper-validator-identifier@7.10.4 checking installable status
+36 http fetch GET 200 http://registry.npmjs.org/js-tokens 1482ms
+37 http fetch GET 200 http://registry.npmjs.org/chalk 2519ms
+38 http fetch GET 200 http://registry.npmjs.org/js-tokens/-/js-tokens-4.0.0.tgz 2552ms
+39 silly pacote version manifest for js-tokens@4.0.0 fetched in 4087ms
+40 silly resolveWithNewModule js-tokens@4.0.0 checking installable status
+41 http fetch GET 200 http://registry.npmjs.org/chalk/-/chalk-2.4.2.tgz 2329ms
+42 silly pacote version manifest for chalk@2.4.2 fetched in 4901ms
+43 silly resolveWithNewModule chalk@2.4.2 checking installable status
+44 silly removeObsoleteDep removing ansi-styles@3.2.1 from the tree as its been replaced by a newer version or is no longer required
+45 silly removeObsoleteDep removing escape-string-regexp@1.0.5 from the tree as its been replaced by a newer version or is no longer required
+46 http fetch GET 200 http://registry.npmjs.org/escape-string-regexp 706ms
+47 http fetch GET 200 http://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz 135ms
+48 silly pacote version manifest for escape-string-regexp@1.0.5 fetched in 888ms
+49 silly resolveWithNewModule escape-string-regexp@1.0.5 checking installable status
+50 http fetch GET 200 http://registry.npmjs.org/ansi-styles 998ms
+51 http fetch GET 200 http://registry.npmjs.org/ansi-styles/-/ansi-styles-3.2.1.tgz 213ms
+52 silly pacote version manifest for ansi-styles@3.2.1 fetched in 1252ms
+53 silly resolveWithNewModule ansi-styles@3.2.1 checking installable status
+54 http fetch GET 200 http://registry.npmjs.org/supports-color 16887ms
+55 http fetch GET 200 http://registry.npmjs.org/supports-color/-/supports-color-5.5.0.tgz 18654ms
+56 silly pacote range manifest for supports-color@^5.3.0 fetched in 35596ms
+57 silly resolveWithNewModule supports-color@5.5.0 checking installable status
+58 silly removeObsoleteDep removing color-convert@1.9.3 from the tree as its been replaced by a newer version or is no longer required
+59 silly removeObsoleteDep removing color-name@1.1.3 from the tree as its been replaced by a newer version or is no longer required
+60 http fetch GET 200 http://registry.npmjs.org/color-convert 744ms
+61 http fetch GET 200 http://registry.npmjs.org/color-convert/-/color-convert-1.9.3.tgz 301ms
+62 silly pacote version manifest for color-convert@1.9.3 fetched in 1099ms
+63 silly resolveWithNewModule color-convert@1.9.3 checking installable status
+64 http fetch GET 200 http://registry.npmjs.org/color-name 270ms
+65 http fetch GET 200 http://registry.npmjs.org/color-name/-/color-name-1.1.3.tgz 196ms
+66 silly pacote version manifest for color-name@1.1.3 fetched in 510ms
+67 silly resolveWithNewModule color-name@1.1.3 checking installable status
+68 silly removeObsoleteDep removing has-flag@3.0.0 from the tree as its been replaced by a newer version or is no longer required
+69 http fetch GET 200 http://registry.npmjs.org/has-flag 239ms
+70 http fetch GET 200 http://registry.npmjs.org/has-flag/-/has-flag-3.0.0.tgz 196ms
+71 silly pacote version manifest for has-flag@3.0.0 fetched in 478ms
+72 silly resolveWithNewModule has-flag@3.0.0 checking installable status
+73 silly removeObsoleteDep removing browserslist@4.10.0 from the tree as its been replaced by a newer version or is no longer required
+74 silly removeObsoleteDep removing electron-to-chromium@1.3.379 from the tree as its been replaced by a newer version or is no longer required
+75 silly removeObsoleteDep removing node-releases@1.1.52 from the tree as its been replaced by a newer version or is no longer required
+76 silly removeObsoleteDep removing semver@6.3.0 from the tree as its been replaced by a newer version or is no longer required
+77 silly removeObsoleteDep removing invariant@2.2.4 from the tree as its been replaced by a newer version or is no longer required
+78 silly removeObsoleteDep removing semver@5.7.1 from the tree as its been replaced by a newer version or is no longer required
+79 http fetch GET 200 http://registry.npmjs.org/invariant 1258ms
+80 http fetch GET 200 http://registry.npmjs.org/invariant/-/invariant-2.2.4.tgz 777ms
+81 silly pacote version manifest for invariant@2.2.4 fetched in 2078ms
+82 silly resolveWithNewModule invariant@2.2.4 checking installable status
+83 http fetch GET 200 http://registry.npmjs.org/browserslist 2257ms
+84 http fetch GET 200 http://registry.npmjs.org/semver 2561ms
+85 http fetch GET 200 http://registry.npmjs.org/semver/-/semver-5.7.1.tgz 581ms
+86 silly pacote version manifest for semver@5.7.1 fetched in 3184ms
+87 silly resolveWithNewModule semver@5.7.1 checking installable status
+88 http fetch GET 200 http://registry.npmjs.org/browserslist/-/browserslist-4.10.0.tgz 1050ms
+89 silly pacote version manifest for browserslist@4.10.0 fetched in 3357ms
+90 silly resolveWithNewModule browserslist@4.10.0 checking installable status
+91 silly removeObsoleteDep removing caniuse-lite@1.0.30001035 from the tree as its been replaced by a newer version or is no longer required
+92 silly removeObsoleteDep removing pkg-up@3.1.0 from the tree as its been replaced by a newer version or is no longer required
+93 http fetch GET 200 http://registry.npmjs.org/pkg-up 490ms
+94 http fetch GET 200 http://registry.npmjs.org/pkg-up/-/pkg-up-3.1.0.tgz 1302ms
+95 silly pacote version manifest for pkg-up@3.1.0 fetched in 1833ms
+96 silly resolveWithNewModule pkg-up@3.1.0 checking installable status
+97 http fetch GET 200 http://registry.npmjs.org/electron-to-chromium 7762ms
+98 http fetch GET 200 http://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.3.511.tgz 240ms
+99 silly pacote range manifest for electron-to-chromium@^1.3.378 fetched in 8078ms
+100 silly resolveWithNewModule electron-to-chromium@1.3.511 checking installable status
+101 http fetch GET 200 http://registry.npmjs.org/node-releases 9330ms
+102 http fetch GET 200 http://registry.npmjs.org/node-releases/-/node-releases-1.1.60.tgz 334ms
+103 silly pacote range manifest for node-releases@^1.1.52 fetched in 9711ms
+104 silly resolveWithNewModule node-releases@1.1.60 checking installable status
+105 http fetch GET 200 http://registry.npmjs.org/caniuse-lite 10357ms
+106 http fetch GET 200 http://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001035.tgz 2027ms
+107 silly pacote version manifest for caniuse-lite@1.0.30001035 fetched in 12452ms
+108 silly resolveWithNewModule caniuse-lite@1.0.30001035 checking installable status
+109 silly removeObsoleteDep removing find-up@3.0.0 from the tree as its been replaced by a newer version or is no longer required
+110 silly removeObsoleteDep removing locate-path@3.0.0 from the tree as its been replaced by a newer version or is no longer required
+111 silly removeObsoleteDep removing p-locate@3.0.0 from the tree as its been replaced by a newer version or is no longer required
+112 http fetch GET 200 http://registry.npmjs.org/find-up 179ms
+113 http fetch GET 200 http://registry.npmjs.org/find-up/-/find-up-3.0.0.tgz 228ms
+114 silly pacote version manifest for find-up@3.0.0 fetched in 451ms
+115 silly resolveWithNewModule find-up@3.0.0 checking installable status
+116 http fetch GET 200 http://registry.npmjs.org/locate-path 275ms
+117 http fetch GET 200 http://registry.npmjs.org/locate-path/-/locate-path-3.0.0.tgz 176ms
+118 silly pacote range manifest for locate-path@^3.0.0 fetched in 501ms
+119 silly resolveWithNewModule locate-path@3.0.0 checking installable status
+120 silly removeObsoleteDep removing path-exists@3.0.0 from the tree as its been replaced by a newer version or is no longer required
+121 http fetch GET 200 http://registry.npmjs.org/p-locate 367ms
+122 http fetch GET 200 http://registry.npmjs.org/path-exists 370ms
+123 http fetch GET 200 http://registry.npmjs.org/path-exists/-/path-exists-3.0.0.tgz 365ms
+124 http fetch GET 200 http://registry.npmjs.org/p-locate/-/p-locate-3.0.0.tgz 386ms
+125 silly pacote version manifest for path-exists@3.0.0 fetched in 812ms
+126 silly resolveWithNewModule path-exists@3.0.0 checking installable status
+127 silly pacote range manifest for p-locate@^3.0.0 fetched in 820ms
+128 silly resolveWithNewModule p-locate@3.0.0 checking installable status
+129 silly removeObsoleteDep removing p-limit@2.2.2 from the tree as its been replaced by a newer version or is no longer required
+130 silly removeObsoleteDep removing p-try@2.2.0 from the tree as its been replaced by a newer version or is no longer required
+131 http fetch GET 200 http://registry.npmjs.org/p-limit 873ms
+132 http fetch GET 200 http://registry.npmjs.org/p-limit/-/p-limit-2.2.2.tgz 290ms
+133 silly pacote version manifest for p-limit@2.2.2 fetched in 1214ms
+134 silly resolveWithNewModule p-limit@2.2.2 checking installable status
+135 http fetch GET 200 http://registry.npmjs.org/p-try 1694ms
+136 http fetch GET 200 http://registry.npmjs.org/p-try/-/p-try-2.2.0.tgz 8980ms
+137 silly pacote range manifest for p-try@^2.0.0 fetched in 10723ms
+138 silly resolveWithNewModule p-try@2.2.0 checking installable status
+139 silly removeObsoleteDep removing loose-envify@1.4.0 from the tree as its been replaced by a newer version or is no longer required
+140 http fetch GET 200 http://registry.npmjs.org/loose-envify 1653ms
+141 http fetch GET 200 http://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz 424ms
+142 silly pacote version manifest for loose-envify@1.4.0 fetched in 2128ms
+143 silly resolveWithNewModule loose-envify@1.4.0 checking installable status
+144 silly removeObsoleteDep removing @babel/code-frame@7.8.3 from the tree as its been replaced by a newer version or is no longer required
+145 silly removeObsoleteDep removing @babel/highlight@7.9.0 from the tree as its been replaced by a newer version or is no longer required
+146 silly removeObsoleteDep removing @babel/helper-validator-identifier@7.10.4 from the tree as its been replaced by a newer version or is no longer required
+147 silly removeObsoleteDep removing chalk@2.4.2 from the tree as its been replaced by a newer version or is no longer required
+148 silly removeObsoleteDep removing escape-string-regexp@1.0.5 from the tree as its been replaced by a newer version or is no longer required
+149 silly removeObsoleteDep removing ansi-styles@3.2.1 from the tree as its been replaced by a newer version or is no longer required
+150 silly removeObsoleteDep removing color-convert@1.9.3 from the tree as its been replaced by a newer version or is no longer required
+151 silly removeObsoleteDep removing color-name@1.1.3 from the tree as its been replaced by a newer version or is no longer required
+152 silly removeObsoleteDep removing supports-color@5.5.0 from the tree as its been replaced by a newer version or is no longer required
+153 silly removeObsoleteDep removing has-flag@3.0.0 from the tree as its been replaced by a newer version or is no longer required
+154 silly removeObsoleteDep removing @babel/generator@7.9.0 from the tree as its been replaced by a newer version or is no longer required
+155 silly removeObsoleteDep removing source-map@0.5.7 from the tree as its been replaced by a newer version or is no longer required
+156 silly removeObsoleteDep removing @babel/helper-module-transforms@7.9.0 from the tree as its been replaced by a newer version or is no longer required
+157 silly removeObsoleteDep removing @babel/helpers@7.9.0 from the tree as its been replaced by a newer version or is no longer required
+158 silly removeObsoleteDep removing @babel/parser@7.9.0 from the tree as its been replaced by a newer version or is no longer required
+159 silly removeObsoleteDep removing @babel/template@7.8.6 from the tree as its been replaced by a newer version or is no longer required
+160 silly removeObsoleteDep removing @babel/traverse@7.9.0 from the tree as its been replaced by a newer version or is no longer required
+161 silly removeObsoleteDep removing debug@4.1.1 from the tree as its been replaced by a newer version or is no longer required
+162 silly removeObsoleteDep removing @babel/types@7.9.0 from the tree as its been replaced by a newer version or is no longer required
+163 silly removeObsoleteDep removing @babel/helper-validator-identifier@7.9.0 from the tree as its been replaced by a newer version or is no longer required
+164 silly removeObsoleteDep removing convert-source-map@1.7.0 from the tree as its been replaced by a newer version or is no longer required
+165 silly removeObsoleteDep removing safe-buffer@5.1.2 from the tree as its been replaced by a newer version or is no longer required
+166 silly removeObsoleteDep removing debug@4.1.1 from the tree as its been replaced by a newer version or is no longer required
+167 silly removeObsoleteDep removing gensync@1.0.0-beta.1 from the tree as its been replaced by a newer version or is no longer required
+168 silly removeObsoleteDep removing json5@2.1.2 from the tree as its been replaced by a newer version or is no longer required
+169 silly removeObsoleteDep removing lodash@4.17.15 from the tree as its been replaced by a newer version or is no longer required
+170 silly removeObsoleteDep removing resolve@1.15.1 from the tree as its been replaced by a newer version or is no longer required
+171 silly removeObsoleteDep removing source-map@0.5.7 from the tree as its been replaced by a newer version or is no longer required
+172 http fetch GET 200 http://registry.npmjs.org/@babel%2fhelper-module-transforms 683ms
+173 http fetch GET 200 http://registry.npmjs.org/@babel/helper-module-transforms/-/helper-module-transforms-7.9.0.tgz 944ms
+174 http fetch GET 200 http://registry.npmjs.org/@babel%2fcode-frame 1648ms
+175 silly pacote version manifest for @babel/helper-module-transforms@7.9.0 fetched in 1718ms
+176 silly resolveWithNewModule @babel/helper-module-transforms@7.9.0 checking installable status
+177 http fetch GET 200 http://registry.npmjs.org/gensync 493ms
+178 http fetch GET 200 http://registry.npmjs.org/gensync/-/gensync-1.0.0-beta.1.tgz 447ms
+179 silly pacote version manifest for gensync@1.0.0-beta.1 fetched in 990ms
+180 silly resolveWithNewModule gensync@1.0.0-beta.1 checking installable status
+181 http fetch GET 200 http://registry.npmjs.org/@babel%2ftypes 2791ms
+182 http fetch GET 200 http://registry.npmjs.org/@babel%2fhelpers 2883ms
+183 http fetch GET 200 http://registry.npmjs.org/@babel%2fparser 2939ms
+184 http fetch GET 200 http://registry.npmjs.org/@babel%2fgenerator 3022ms
+185 http fetch GET 200 http://registry.npmjs.org/json5 729ms
+186 http fetch GET 200 http://registry.npmjs.org/@babel/generator/-/generator-7.9.0.tgz 634ms
+187 silly pacote version manifest for @babel/generator@7.9.0 fetched in 3712ms
+188 silly resolveWithNewModule @babel/generator@7.9.0 checking installable status
+189 http fetch GET 200 http://registry.npmjs.org/@babel/helpers/-/helpers-7.9.0.tgz 905ms
+190 silly pacote version manifest for @babel/helpers@7.9.0 fetched in 3843ms
+191 silly resolveWithNewModule @babel/helpers@7.9.0 checking installable status
+192 http fetch GET 200 http://registry.npmjs.org/lodash 931ms
+193 http fetch GET 200 http://registry.npmjs.org/json5/-/json5-2.1.2.tgz 1329ms
+194 silly pacote version manifest for json5@2.1.2 fetched in 2121ms
+195 silly resolveWithNewModule json5@2.1.2 checking installable status
+196 http fetch GET 200 http://registry.npmjs.org/resolve 1039ms
+197 http fetch GET 200 http://registry.npmjs.org/@babel/code-frame/-/code-frame-7.8.3.tgz 3422ms
+198 silly pacote version manifest for @babel/code-frame@7.8.3 fetched in 5113ms
+199 silly resolveWithNewModule @babel/code-frame@7.8.3 checking installable status
+200 http fetch GET 200 http://registry.npmjs.org/source-map 1128ms
+201 http fetch GET 200 http://registry.npmjs.org/resolve/-/resolve-1.15.1.tgz 1843ms
+202 silly pacote version manifest for resolve@1.15.1 fetched in 2932ms
+203 silly resolveWithNewModule resolve@1.15.1 checking installable status
+204 http fetch GET 200 http://registry.npmjs.org/lodash/-/lodash-4.17.15.tgz 3454ms
+205 silly pacote version manifest for lodash@4.17.15 fetched in 4445ms
+206 silly resolveWithNewModule lodash@4.17.15 checking installable status
+207 http fetch GET 200 http://registry.npmjs.org/source-map/-/source-map-0.5.7.tgz 3329ms
+208 silly pacote version manifest for source-map@0.5.7 fetched in 4505ms
+209 silly resolveWithNewModule source-map@0.5.7 checking installable status
+210 http fetch GET 200 http://registry.npmjs.org/@babel/parser/-/parser-7.9.0.tgz 6708ms
+211 silly pacote version manifest for @babel/parser@7.9.0 fetched in 9737ms
+212 silly resolveWithNewModule @babel/parser@7.9.0 checking installable status
+213 http fetch GET 200 http://registry.npmjs.org/convert-source-map 9754ms
+214 http fetch GET 200 http://registry.npmjs.org/@babel/types/-/types-7.9.0.tgz 7057ms
+215 silly pacote version manifest for @babel/types@7.9.0 fetched in 9928ms
+216 silly resolveWithNewModule @babel/types@7.9.0 checking installable status
+217 http fetch GET 200 http://registry.npmjs.org/convert-source-map/-/convert-source-map-1.7.0.tgz 325ms
+218 silly pacote version manifest for convert-source-map@1.7.0 fetched in 10158ms
+219 silly resolveWithNewModule convert-source-map@1.7.0 checking installable status
+220 http fetch GET 200 http://registry.npmjs.org/@babel%2ftraverse 21096ms
+221 http fetch GET 200 http://registry.npmjs.org/@babel%2ftemplate 21131ms
+222 http fetch GET 200 http://registry.npmjs.org/debug 21127ms
+223 silly fetchPackageMetaData error for @babel/traverse@7.9.0 Unexpected end of JSON input while parsing near '...lh5Be+oEehyabg06v6mK1'
+224 silly fetchPackageMetaData error for @babel/template@7.8.6 Unexpected end of JSON input while parsing near '..."-----BEGIN PGP SIGNA'
+225 silly fetchPackageMetaData error for debug@4.1.1 Unexpected end of JSON input while parsing near '...\nZ6P5RYv40/FQ3lgWtrp'
+226 verbose stack RangeError: Maximum call stack size exceeded
+226 verbose stack     at RegExp.test (<anonymous>)
+226 verbose stack     at isDepOptional (C:\usr\local\node_modules\npm\lib\install\deps.js:432:45)
+226 verbose stack     at failedDependency (C:\usr\local\node_modules\npm\lib\install\deps.js:441:9)
+226 verbose stack     at failedDependency (C:\usr\local\node_modules\npm\lib\install\deps.js:457:9)
+226 verbose stack     at failedDependency (C:\usr\local\node_modules\npm\lib\install\deps.js:457:9)
+226 verbose stack     at failedDependency (C:\usr\local\node_modules\npm\lib\install\deps.js:457:9)
+226 verbose stack     at failedDependency (C:\usr\local\node_modules\npm\lib\install\deps.js:457:9)
+226 verbose stack     at failedDependency (C:\usr\local\node_modules\npm\lib\install\deps.js:457:9)
+226 verbose stack     at failedDependency (C:\usr\local\node_modules\npm\lib\install\deps.js:457:9)
+226 verbose stack     at failedDependency (C:\usr\local\node_modules\npm\lib\install\deps.js:457:9)
+226 verbose stack     at failedDependency (C:\usr\local\node_modules\npm\lib\install\deps.js:457:9)
+226 verbose stack     at failedDependency (C:\usr\local\node_modules\npm\lib\install\deps.js:457:9)
+226 verbose stack     at failedDependency (C:\usr\local\node_modules\npm\lib\install\deps.js:457:9)
+226 verbose stack     at failedDependency (C:\usr\local\node_modules\npm\lib\install\deps.js:457:9)
+226 verbose stack     at failedDependency (C:\usr\local\node_modules\npm\lib\install\deps.js:457:9)
+226 verbose stack     at failedDependency (C:\usr\local\node_modules\npm\lib\install\deps.js:457:9)
+227 verbose cwd C:\Windows\System32\monsters-rolodex
+228 verbose Windows_NT 10.0.17763
+229 verbose argv "C:\\Program Files\\nodejs\\node.exe" "C:\\usr\\local\\node_modules\\npm\\bin\\npm-cli.js" "install" "git"
+230 verbose node v12.18.3
+231 verbose npm  v6.14.6
+232 error Maximum call stack size exceeded
+233 verbose exit [ 1, true ]
